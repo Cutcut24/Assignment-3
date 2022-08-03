@@ -1,0 +1,38 @@
+@media (max-width: 992px) {
+  .nav {
+    display: flex;
+    gap: 0;
+  }
+
+  .item--2 {
+    margin-right: 0;
+  }
+
+  .item--3 {
+    margin-left: 0;
+  }
+
+  .item-img {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  /* Certificate */
+  .certifcate-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  .certifcate-list img {
+    padding-bottom: 10px;
+  }
+
+  .certifcate-list-3-text {
+    padding-left: 20px;
+    border-left: 1px solid #ff922b;
+  }
+}

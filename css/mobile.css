@@ -1,0 +1,59 @@
+@media (max-width: 768px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  #nav-bar img {
+    display: none;
+  }
+
+  .container-target-info {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 400px;
+    padding-left: 20px;
+  }
+
+  /* certificate */
+  .certifcate-list {
+    width: 450px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    margin-right: 0;
+  }
+
+  .certifcate-list-2 {
+    border-bottom: 1px solid #ff922b;
+  }
+
+  .certifcate-list-3,
+  .certifcate-list-3 img,
+  .certifcate-list-3-text {
+    border: none;
+  }
+
+  .certifcate-list-3 img,
+  .certifcate-list-3-text {
+    padding-left: 0;
+    border-left: none;
+  }
+
+  /* project */
+  .container-project {
+    max-width: 400px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  #container-job-info {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    margin: 0 40px;
+  }
+}
